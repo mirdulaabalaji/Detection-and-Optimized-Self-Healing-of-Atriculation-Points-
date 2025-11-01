@@ -109,30 +109,35 @@ Then, it will print the final statistics report:
 ╠════════════════════════════════════════════════════════════╣\
 ║ Topology Generation:          0.15 ms                   ║\
 ║ Initial Analysis (Tarjan):    0.11 ms                   ║\
-║ Redundancy Addition:          0.04 ms                   ║
-║ Final Analysis (Tarjan):      0.10 ms                   ║
-║ DOT Export:                   0.52 ms                   ║
-║ ─────────────────────────────────────────────────────────  ║
-║ TOTAL EXECUTION TIME:          1.52 ms                   ║
-╠════════════════════════════════════════════════════════════╣
-║ ALGORITHM EFFICIENCY                                         ║
-╠════════════════════════════════════════════════════════════╣
-║ Time per Node:               0.015 ms/node                ║
-║ Time per Edge:               0.010 ms/edge                ║
-║ Theoretical Complexity:     O(V + E)                     ║
-╠════════════════════════════════════════════════════════════╣
-║ OUTPUT FILES                                                 ║
-╠════════════════════════════════════════════════════════════╣
-║ • dodag_old.dot   (Original topology)                      ║
-║ • dodag_final.dot (Meshified topology)                     ║
-║ • dodag_old.png   (Original visualization)                 ║
-║ • dodag_final.png (Meshified visualization)                ║
-╚════════════════════════════════════════════════════════════╝
+║ Redundancy Addition:          0.04 ms                   ║\
+║ Final Analysis (Tarjan):      0.10 ms                   ║\
+║ DOT Export:                   0.52 ms                   ║\
+║ ─────────────────────────────────────────────────────────  ║\
+║ TOTAL EXECUTION TIME:          1.52 ms                   ║\
+╠════════════════════════════════════════════════════════════╣\
+║ ALGORITHM EFFICIENCY                                         ║\
+╠════════════════════════════════════════════════════════════╣\
+║ Time per Node:               0.015 ms/node                ║\
+║ Time per Edge:               0.010 ms/edge                ║\
+║ Theoretical Complexity:     O(V + E)                     ║\
+╠════════════════════════════════════════════════════════════╣\
+║ OUTPUT FILES                                                 ║\
+╠════════════════════════════════════════════════════════════╣\
+║ • dodag_old.dot   (Original topology)                      ║\
+║ • dodag_final.dot (Meshified topology)                     ║\
+║ • dodag_old.png   (Original visualization)                 ║\
+║ • dodag_final.png (Meshified visualization)                ║\
+╚════════════════════════════════════════════════════════════╝\
 
 
 ## 6. Visualization
 
-After the program finishes, check your project directory. You will find four new files. The most important are the PNG images:
+After the program finishes, check your project directory. You will find four new files. They are,
+
+dodag_old.dot\
+dodag_final.dot\
+
+These .dot files are a plain text files that describes the graph of the network before and after the algorithm was applied. These files are then converted to .png files for user-friendly visualization.
 
 dodag_old.png: Shows the initial, vulnerable graph. Cut vertices are colored red.
 
