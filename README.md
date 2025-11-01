@@ -1,0 +1,2 @@
+# Detection-and-Optimized-Self-Healing-of-Atriculation-Points-
+Lightweight algorithm to fix cut vertex vulnerabilities in IoT-RPL networks, where one node's failure can disconnect the network. Using graph theory, the method proactively identifies all single points of failure and then strategically adds a minimal number of redundant links to create a biconnected mesh, eliminating 100% of these vulnerabilities.
