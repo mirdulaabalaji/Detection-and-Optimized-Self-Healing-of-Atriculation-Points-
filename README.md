@@ -134,17 +134,17 @@ Then, it will print the final statistics report:
 
 After the program finishes, check your project directory. You will find four new files. They are,
 
-dodag_old.dot\
-dodag_final.dot\
+**dodag_old.dot**\
+**dodag_final.dot**
 
 These .dot files are a plain text files that describes the graph of the network before and after the algorithm was applied. These files are then converted to .png files for user-friendly visualization.
 
-dodag_old.png: Shows the initial, vulnerable graph. Cut vertices are colored red.
+**dodag_old.png**: Shows the initial, vulnerable graph. Cut vertices are colored red.
 
 ![topology_before](https://github.com/user-attachments/assets/9288638d-e202-4653-a7b8-e3852bc92c82)
 
 
-dodag_final.png: Shows the final, hardened graph. New redundant edges are colored green, and there are no more red nodes.
+**dodag_final.png**: Shows the final, hardened graph. New redundant edges are colored green, and there are no more red nodes.
 
 ![topology_after](https://github.com/user-attachments/assets/de436d33-8073-490e-ad62-bcac9ae14fd5)
 
